@@ -11,20 +11,14 @@ body {
   height: 81px;
 }
 
-.navbar-nav li{
-  /*float: left;
-  width: 9em;
+.navbar-nav>li{
   text-align: center;
+  width: 9em;
+  border-left: 1px dotted #666;
   height: 81px;
-  margin: 0;
-  color: white;
-  padding: 0 0 0 0;
-  border-left: 1px dotted #666;*/
-  text-align: center;
-  width: 9em;
 }
 
-.navbar-nav li a:link, .navbar-nav li a:visited{
+.navbar-nav>li>a{
   display: block;
   line-height: 56px;
   padding: 0 0 0 0;
@@ -32,6 +26,14 @@ body {
   font-family: Lucida Grande, sans-serif;
   font-weight: bold;
   font-size: 1.25em;
+}
+
+.navbar-nav>li>a:hover {
+  color: #e5eddc;
+}
+
+.navbar-nav>li>a:visited {
+  color: #e5eddc;
 }
 
 .canoe_back {
